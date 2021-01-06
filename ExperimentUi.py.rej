@@ -1,0 +1,9 @@
+diff a/ExperimentUi.py b/ExperimentUi.py	(rejected hunks)
+@@ -122,6 +122,7 @@
+         userFuncLoader(localpath)
+ 
+     def __enter__(self):
++        # TODO: Should this be calling PulserHardwareServer instead?
+         self.pulser = PulserHardware()
+         return self
+ 
